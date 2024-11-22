@@ -13,11 +13,29 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
   </head>
   <body class="opening hide-UI view-2D zoom-large data-close controls-close">
-    <div id="navbar">
-      <a id="toggle-data" href="#data"><i class="icon-data"></i>Data</a>
-      <h1>3D CSS Solar System <br> <span>by <a href="http://twitter.com/@09roshansharma" target="_blank">@09roshansharma</a></span></h1>
-      <a id="toggle-controls" href="#controls"><i class="icon-controls"></i>Controls</a>
-    </div>
+    <nav id="navbar">
+      <a id="toggle-data" href="#data" aria-label="Toggle Data">
+        <i class="icon-data" aria-hidden="true"></i> Data
+      </a>
+      <h1>
+        3D CSS Solar System 
+        <span>
+          by <strong>Roshan Sharma</strong>
+          <a href="https://twitter.com/@09roshansharma" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             aria-label="Follow Roshan Sharma on Twitter" 
+             style="color: #007bff; text-decoration: underline;">
+             @09roshansharma
+          </a>
+        </span>
+      </h1>
+      <a id="toggle-controls" href="#controls" aria-label="Toggle Controls">
+        <i class="icon-controls" aria-hidden="true"></i> Controls
+      </a>
+    </nav>
+    
+    
     <div id="data">
       <a class="sun" title="sun" href="#sunspeed">Sun</a>
       <a class="mercury" title="mercury" href="#mercuryspeed">Mercury</a>
